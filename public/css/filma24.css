@@ -1,0 +1,95 @@
+.filma24-content {
+    padding: 15px;
+    text-decoration: none;
+}
+.filma24-content:hover {
+    text-decoration: none;
+}
+.filma24-card {
+    text-decoration: none;
+    position: relative;
+    font-family: Arial;
+}
+.filma24-card:hover {
+    text-decoration: none;
+
+}
+.filma24-card img {
+    transition: transform .3s; /* Animation */
+}
+.filma24-card:hover img {
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+.filma24-card:hover .filma24-middle{
+    opacity: 1;
+}
+.filma24-card h5 {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.filma24-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: #ffe631;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: small;
+}
+.bottom-left span{
+    color: #ffe631;
+}
+.bottom-left:hover span{
+    color: #6610f2;
+}
+
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    color: #ffe631;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: #ffe631;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 15px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
